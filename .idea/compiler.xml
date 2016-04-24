@@ -22,10 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="MoonShot" />
+        <module name="Amazon" />
+        <module name="Cnn" />
+        <module name="Generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.5" />
+      <module name="Cnn" target="1.5" />
+      <module name="Generic" target="1.5" />
       <module name="MoonShot" target="1.5" />
     </bytecodeTargetLevel>
   </component>
