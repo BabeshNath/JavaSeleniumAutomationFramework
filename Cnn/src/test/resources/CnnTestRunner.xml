@@ -3,7 +3,7 @@
 <suite name="Cnn App running on chrome Browser">
 
 
-    <parameter name="usecloud" value="true"/>
+    <parameter name="usecloud" value="false"/>
     <parameter name="userName" value="rahmanww"/>
     <parameter name="accessKey" value="your key"/>
     <parameter name="os" value="Windows 10"/>

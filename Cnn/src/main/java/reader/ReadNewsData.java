@@ -12,7 +12,7 @@ public class ReadNewsData {
     DataReader dataReader = new DataReader();
 
     public String[] getData()throws IOException{
-        String path = System.getProperty("user.dir")+"/data/searchData.xls";
+        String path = System.getProperty("user.dir")+"\\data\\searchData.xls";
         String [] news = dataReader.fileReader(path);
 
         return news;

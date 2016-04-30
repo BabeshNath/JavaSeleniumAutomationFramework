@@ -2,18 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon App running on Firefox Browser">
 
-    <parameter name="usecloud" value="true"/>
+    <parameter name="usecloud" value="false"/>
     <parameter name="userName" value="rahmanww"/>
     <parameter name="accessKey" value="your key"/>
     <parameter name="os" value="Windows 10"/>
     <parameter name="url" value="http://www.amazon.com"/>
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="browserversion" value="40"/>
 
     <test name="Home Page">
 
         <classes>
-            <class name="search.ItemSearch"/>
+            <!--<class name="search.ItemSearch"/>-->
+            <class name="search.Products"/>
         </classes>
 
     </test>

@@ -98,6 +98,9 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
 
+    public void clearInputField(String locator){
+        driver.findElement(By.cssSelector(locator)).clear();
+    }
     public List<WebElement> getListOfWebElements(String locator) {
 
         List<WebElement> list = new ArrayList<WebElement>();
@@ -121,6 +124,9 @@ public class CommonAPI {
     select.selectByVisibleText(value);
     }
 
+    public void sleepFor(int sec)throws InterruptedException{
+        Thread.sleep(sec * 1000);
+    }
 
 
 }
